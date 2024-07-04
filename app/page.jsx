@@ -1,10 +1,11 @@
 import { Navbar } from './components/Navbar';
+import { About } from './components/About';
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <h1 className="mt-32">Hello!</h1>
+      <About />
     </>
   );
 }

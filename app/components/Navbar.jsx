@@ -1,35 +1,40 @@
+import Link from 'next/link';
 export const Navbar = () => {
   return (
     <div className="navbar bg-neutral text-base-100">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl italic">
+        <Link href="/" className="btn btn-ghost text-xl italic">
           Boyah J Farah <br />
           Writer
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>About</a>
+            <Link href="/">About</Link>
           </li>
           <li>
-            <a>Writings</a>
+            <Link href="/writings">Writings</Link>
           </li>
           <li>
-            <a>Interviews</a>
+            <Link href="/interviews">Interviews</Link>
           </li>
           <li>
-            <a>Adventures</a>
+            <Link href="/adventures">Adventures</Link>
           </li>
           <li>
-            <a>Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end flex items-center">
         <div className="flex lg:hidden">
-          <a className="btn btn-ghost btn-sm">About</a>
-          <a className="btn btn-ghost btn-sm">Writings</a>
+          <Link href="/" className="btn btn-ghost btn-sm">
+            About
+          </Link>
+          <Link href="/writings" className="btn btn-ghost btn-sm">
+            Writings
+          </Link>
         </div>
         <div className="dropdown dropdown-end lg:hidden">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-sm">
@@ -53,13 +58,13 @@ export const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-neutral rounded-box w-52"
           >
             <li>
-              <a>Interviews</a>
+              <Link href="/interviews">Interviews</Link>
             </li>
             <li>
-              <a>Adventures</a>
+              <Link href="/adventures">Adventures</Link>
             </li>
             <li>
-              <a>Contact</a>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
