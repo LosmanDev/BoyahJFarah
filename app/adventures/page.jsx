@@ -1,7 +1,5 @@
 import Adventures from '../components/Adventures';
 
-const adventures = () => {
+export default function adventures() {
   return <Adventures />;
-};
-
-export default adventures;
+}

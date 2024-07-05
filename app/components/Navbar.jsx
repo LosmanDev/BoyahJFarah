@@ -1,5 +1,5 @@
 import Link from 'next/link';
-export const Navbar = () => {
+export default function Navbar() {
   return (
     <div className="navbar bg-neutral text-base-100">
       <div className="navbar-start">
@@ -71,4 +71,4 @@ export const Navbar = () => {
       </div>
     </div>
   );
-};
+}

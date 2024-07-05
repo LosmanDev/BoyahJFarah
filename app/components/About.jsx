@@ -1,4 +1,5 @@
-export const About = () => {
+import Link from 'next/link';
+export default function About() {
   return (
     <>
       <section className="text-gray-600 body-font">
@@ -29,9 +30,9 @@ export const About = () => {
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
-                    Phoebe Caulfield
+                    Boyah J Farah
                   </h2>
-                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <div className="w-12 h-1 bg-neutral rounded mt-2 mb-4"></div>
                   <p className="text-base">
                     Raclette knausgaard hella meggs normcore williamsburg enamel
                     pin sartorial venmo tbh hot chicken gentrify portland.
@@ -50,7 +51,10 @@ export const About = () => {
                   disrupt butcher paleo intelligentsia pabst before they sold
                   out four loko. 3 wolf moon brooklyn.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center">
+                <Link
+                  href="/writings"
+                  className="text-neutral font-semibold underline inline-flex items-center"
+                >
                   Writings
                   <svg
                     fill="none"
@@ -63,7 +67,7 @@ export const About = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -71,4 +75,4 @@ export const About = () => {
       </section>
     </>
   );
-};
+}

@@ -1,9 +1,5 @@
-import React from 'react';
-
 import Interviews from '../components/Interviews';
 
-const interviews = () => {
+export default function interviews() {
   return <Interviews />;
-};
-
-export default interviews;
+}
