@@ -51,9 +51,23 @@ export default function About() {
                   disrupt butcher paleo intelligentsia pabst before they sold
                   out four loko. 3 wolf moon brooklyn.
                 </p>
+
+                <div className="flex flex-col sm:flex-row sm:items-start max-w-2xl mx-auto p-4">
+                  <img
+                    src="https://via.placeholder.com/150"
+                    alt="Placeholder image"
+                    className="w-full sm:w-1/3 h-auto mb-4 sm:mb-0 sm:mr-4 rounded-lg"
+                  />
+                  <p className="text-base sm:text-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
                 <Link
                   href="/writings"
-                  className="text-neutral font-semibold underline inline-flex items-center"
+                  className="mt-10 text-neutral font-semibold underline inline-flex items-center"
                 >
                   Writings
                   <svg
