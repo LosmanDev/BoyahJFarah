@@ -1,90 +1,137 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import book from '../../public/images/black.jpg';
+import boyah from '../../public/images/profile.jpg';
+import abaadi from '../../public/images/school.jpg';
+
 export default function About() {
   return (
     <>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
-            <div className="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1200x500"
-              />
+            <div className="flex justify-center items-center h-64">
+              <div className="rounded-lg overflow-hidden object-cover">
+                <Image alt="content" src={boyah} />
+              </div>
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-10 h-10"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                     Boyah J Farah
                   </h2>
                   <div className="w-12 h-1 bg-neutral rounded mt-2 mb-4"></div>
                   <p className="text-base">
-                    Raclette knausgaard hella meggs normcore williamsburg enamel
-                    pin sartorial venmo tbh hot chicken gentrify portland.
+                    War had circumcised my boyhood self, but I am now all about
+                    peace & writing & uplifting humans. My memoir America Made
+                    Me a Black Man 9/06/22 from HarperCollins America Made Me A
+                    Black Man is NAACP Image Award Nominee · Winner of Black
+                    Authors Matter TV Awards · NPR's Best Book and many more.
                   </p>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p className="leading-relaxed text-lg mb-4">
-                  Meggings portland fingerstache lyft, post-ironic fixie man bun
-                  banh mi umami everyday carry hexagon locavore direct trade art
-                  party. Locavore small batch listicle gastropub farm-to-table
-                  lumbersexual salvia messenger bag. Coloring book flannel
-                  truffaut craft beer drinking vinegar sartorial, disrupt
-                  fashion axe normcore meh butcher. Portland 90's scenester
-                  vexillologist forage post-ironic asymmetrical, chartreuse
-                  disrupt butcher paleo intelligentsia pabst before they sold
-                  out four loko. 3 wolf moon brooklyn.
+                <p className="leading-relaxed text-center text-lg mb-4">
+                  Boyah J. Farah’s writing has been featured in The Guardian,
+                  Harvard Transition, Scheer Intelligence at KCRW, Grub Daily
+                  and Truthdig. He is the winner of Salon‘s best essay of 2017.
+                  His essays have also appeared in Harvard’s Kennedy School
+                  Review, Pangyrus magazine, and The Huffington Post. A Judy
+                  Layzer Fellow, he took the Memoir Incubator at GrubStreet
+                  Creative Writing. He has appeared on NPR, KCRW, WGBH and at
+                  Boston College, Belmont Hill school, the Museum of Fine Arts,
+                  the Boston Book Festival, the Boston Poetry Festival, Umass
+                  Boston, Facing History and Ourselves and many other
+                  institutions and organizations. Boyah has a master degree and
+                  he, in fact, is a publicist’s dream.
                 </p>
 
                 <div className="flex flex-col sm:flex-row sm:items-start max-w-2xl mx-auto p-4">
-                  <img
-                    src="https://via.placeholder.com/150"
+                  <Image
+                    src={abaadi}
                     alt="Placeholder image"
+                    width={100}
+                    height={100}
                     className="w-full sm:w-1/3 h-auto mb-4 sm:mb-0 sm:mr-4 rounded-lg"
                   />
-                  <p className="text-base sm:text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <p className="text-base sm:text-lg text-pretty leading-tight">
+                    Recently, he founded the Abaadi School in Garowe, Somalia,
+                    which offers instruction in English, Math and Science to
+                    boys and girls ages 13-24. The school is expanding rapidly
+                    and has attracted some interest locally.
                   </p>
                 </div>
-                <Link
-                  href="/writings"
-                  className="mt-10 text-neutral font-semibold underline inline-flex items-center"
-                >
-                  Writings
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </Link>
               </div>
             </div>
           </div>
+          <section className="text-gray-600 body-font overflow-hidden">
+            <div className="container px-5 py-24 mx-auto">
+              <div className="lg:w-4/5 mx-auto flex flex-wrap">
+                <Image
+                  src={book}
+                  alt="Book America Made me a black man"
+                  width={400}
+                  height={400}
+                  className="lg:w-1/2 w-full lg:h-auto h-64 md:object-cover object-contain object-center rounded"
+                />
+                <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                  <h2 className="text-sm title-font text-gray-500 tracking-widest mb-3">
+                    NAACP Image Award Nominee · NPR Best Book of 2022
+                  </h2>
+                  <h1 className="text-gray-900 text-3xl title-font font-medium mb-3">
+                    America Made Me a Black Man
+                  </h1>
+                  <span className="italic font-semibold">
+                    A searing memoir of American racism from a Somalian-American
+                    who survived hardships in his birth country only to
+                    experience firsthand the dehumanization of Blacks in his
+                    adopted land, the United States.
+                  </span>
+                  <p className="leading-relaxed mt-3">
+                    “No one told me about America.” Born in Somalia and raised
+                    in a valley among nomads, Boyah Farah grew up with a code of
+                    male bravado that helped him survive deprivation, disease,
+                    and civil war. Arriving in America, he believed that the
+                    code that had saved him would help him succeed in this new
+                    country. But instead of safety and freedom, Boyah found
+                    systemic racism, police brutality, and intense prejudice in
+                    all areas of life, including the workplace. He learned
+                    firsthand not only what it meant to be an African in
+                    America, but what it means to be African American. The code
+                    of masculinity that shaped generations of men in his family
+                    could not prepare Farah for the painful realities of life in
+                    the United States. Lyrical yet unsparing, America Made Me a
+                    Black Man is the first book-length examination of American
+                    racism from an African outsider’s perspective. With a
+                    singular poetic voice brimming with imagery, Boyah Farah
+                    challenges us to face difficult truths about the destructive
+                    forces that threaten Black lives. By affirming that there is
+                    a “melancholy redemption in possessing a Black body in
+                    America,” he also attempts to heal a fracture in Black men’s
+                    identity in this unforgettable book.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <Link
+            href="/writings"
+            className="mt-10 text-neutral font-semibold underline inline-flex items-center justify-center"
+          >
+            Writings
+            <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="w-4 h-4 ml-2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link>
         </div>
       </section>
     </>
