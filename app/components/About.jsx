@@ -41,11 +41,11 @@ export default function About() {
                 </div>
               </div>
               <div
-                data-aos="fade-down"
-                data-aos-delay="400"
+                data-aos="fade-right"
+                data-aos-delay="200"
                 className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left"
               >
-                <p className="leading-relaxed text-center text-lg mb-4">
+                <p className="leading-relaxed text-center text-base mb-4">
                   Boyah J. Farah’s writing has been featured in The Guardian,
                   Harvard Transition, Scheer Intelligence at KCRW, Grub Daily
                   and Truthdig. He is the winner of Salon‘s best essay of 2017.
@@ -72,7 +72,7 @@ export default function About() {
                     height={80}
                     className="w-full sm:w-1/3 h-auto mb-4 sm:mb-0 sm:mr-4 rounded-lg"
                   />
-                  <p className="text-base text-pretty leading-tight">
+                  <p className="text-base text-pretty leading-tight italic">
                     Recently, he founded the Abaadi School in Garowe, Somalia,
                     which offers instruction in English, Math and Science to
                     boys and girls ages 13-24. The school is expanding rapidly

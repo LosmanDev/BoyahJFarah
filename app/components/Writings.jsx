@@ -6,6 +6,7 @@ import refugee from '../../public/images/refugee.webp';
 import home from '../../public/images/home.webp';
 import independence from '../../public/images/independence.webp';
 import npr from '../../public/images/npr.webp';
+import poem from '../../public/images/poem.webp';
 
 export default function Writings() {
   return (
@@ -242,6 +243,45 @@ export default function Writings() {
                   className="underline text-blue-500 ml-1"
                 >
                   NPR
+                </a>
+              </p>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-delay="1000"
+              className="p-4 md:w-1/3 sm:mb-0 mb-6"
+            >
+              <div className="rounded-lg h-64 overflow-hidden relative">
+                <Link
+                  href="https://www.thesomervilletimes.com/archives/72363"
+                  target="_blank"
+                >
+                  <Image
+                    className="object-cover object-center rounded"
+                    alt="Image from npr article of Boyah J Farah"
+                    src={poem}
+                    width={1205}
+                    height={505}
+                  />
+                </Link>
+              </div>
+              <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+                Words Made You.
+              </h2>
+              <p className="text-base leading-relaxed mt-2">
+                "I was introduced to Boyah J. Farah by Somerville poet Kirk
+                Etherton at Bunker Hill Community College, where Boyah and I
+                both teach. He had quite a story to tell, and I was lucky to
+                have him share a poem with us for the LYRICAL. "
+              </p>
+              <p className="inline-flex items-center mt-3">
+                Published by{' '}
+                <a
+                  href="https://www.thesomervilletimes.com/archives/72363"
+                  target="_blank"
+                  className="underline text-blue-500 ml-1"
+                >
+                  LYRICAL SOMERVILLE
                 </a>
               </p>
             </div>
