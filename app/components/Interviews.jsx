@@ -7,21 +7,26 @@ export default function Interviews() {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-neutral">
-                  CATEGORY
+                  Hosted by Robert Scheer
                 </span>
-                <span className="mt-1 text-neutral text-sm">12 Jun 2019</span>
+                <span className="mt-1 text-neutral text-sm">24 Mar 2017</span>
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-neutral title-font mb-2">
-                  Bitters hashtag waistcoat fashion axe chia unicorn
+                  Boyah J. Farah: A voice for refugees
                 </h2>
                 <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                  Boyah J. Farah's nonfiction work has been featured in Salon,
+                  the Guardian and Truthdig. Farah, who came to the United
+                  States in 1993 as a teenage refugee, participated in the
+                  memoir incubator at GrubStreet (a creative writing school) in
+                  Boston.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
+                <a
+                  href="https://www.kcrw.com/culture/shows/scheer-intelligence/boyah-j-farah-a-voice-for-refugees"
+                  target="_blank"
+                  className="text-indigo-500 inline-flex items-center mt-4"
+                >
                   Learn More
                   <svg
                     className="w-4 h-4 ml-2"
@@ -41,21 +46,26 @@ export default function Interviews() {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-neutral">
-                  CATEGORY
+                  Boston Public Radio Staff
                 </span>
-                <span className="mt-1 text-neutral text-sm">12 Jun 2019</span>
+                <span className="mt-1 text-neutral text-sm">6 Jul 2017</span>
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-neutral title-font mb-2">
-                  Meditation bushwick direct trade taxidermy shaman
+                  Boston Write-in at the BPL
                 </h2>
                 <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                  On Friday people of all backgrounds gathered on the steps of
+                  the Boston Public Library for an afternoon of writing and
+                  storytelling in support of recent immigrants and refugees. Two
+                  of those writers, Boyah J. Farah and Gazmend Kapllani
+                  participated in the event.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
+                <a
+                  target="_blank"
+                  href="https://www.wgbh.org/news/2017-05-20/boston-write-in-at-the-bpl"
+                  className="text-indigo-500 inline-flex items-center mt-4"
+                >
                   Learn More
                   <svg
                     className="w-4 h-4 ml-2"
@@ -75,21 +85,26 @@ export default function Interviews() {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-neutral">
-                  CATEGORY
+                  UMASS BOSTON
                 </span>
-                <span className="text-sm text-neutral">12 Jun 2019</span>
+                <span className="text-sm text-neutral">Sep 2017</span>
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-neutral title-font mb-2">
-                  Woke master cleanse drinking vinegar salvia
+                  Race, Immigration Among Topics at Joiner Institute’s 30th
+                  Annual Writers’ Workshop
                 </h2>
                 <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                  UMass Boston’s William Joiner Institute for the Study of War
+                  and Social Consequences hosted its 30th annual Writers’
+                  Workshop in June, offering an opportunity to study with and
+                  learn from award-winning poets and writers.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
+                <a
+                  href="https://www.umb.edu/media/umassboston/content-assets/documents/September_2017_Board_of_Trustees_Report.pdf"
+                  target="_blank"
+                  className="text-indigo-500 inline-flex items-center mt-4"
+                >
                   Learn More
                   <svg
                     className="w-4 h-4 ml-2"

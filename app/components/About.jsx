@@ -11,16 +11,25 @@ export default function About() {
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
             <div className="flex justify-center items-center h-64">
-              <div className="rounded-lg overflow-hidden object-cover">
+              <div
+                data-aos="fade-down"
+                data-aos-delay="0"
+                className="rounded-lg overflow-hidden object-cover"
+              >
                 <Image alt="content" src={boyah} />
               </div>
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
-              <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+              <div
+                data-aos="fade-down"
+                data-aos-delay="0"
+                className="sm:w-1/3 text-center sm:pr-8 sm:py-8"
+              >
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                     Boyah J Farah
                   </h2>
+
                   <div className="w-12 h-1 bg-neutral rounded mt-2 mb-4"></div>
                   <p className="text-base">
                     War had circumcised my boyhood self, but I am now all about
@@ -31,7 +40,11 @@ export default function About() {
                   </p>
                 </div>
               </div>
-              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+              <div
+                data-aos="fade-down"
+                data-aos-delay="400"
+                className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left"
+              >
                 <p className="leading-relaxed text-center text-lg mb-4">
                   Boyah J. Farah’s writing has been featured in The Guardian,
                   Harvard Transition, Scheer Intelligence at KCRW, Grub Daily
@@ -47,15 +60,19 @@ export default function About() {
                   he, in fact, is a publicist’s dream.
                 </p>
 
-                <div className="flex flex-col sm:flex-row sm:items-start max-w-2xl mx-auto p-4">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  className="flex flex-col sm:flex-row sm:items-start max-w-2xl mx-auto p-4"
+                >
                   <Image
                     src={abaadi}
                     alt="Placeholder image"
-                    width={100}
-                    height={100}
+                    width={80}
+                    height={80}
                     className="w-full sm:w-1/3 h-auto mb-4 sm:mb-0 sm:mr-4 rounded-lg"
                   />
-                  <p className="text-base sm:text-lg text-pretty leading-tight">
+                  <p className="text-base text-pretty leading-tight">
                     Recently, he founded the Abaadi School in Garowe, Somalia,
                     which offers instruction in English, Math and Science to
                     boys and girls ages 13-24. The school is expanding rapidly
@@ -65,8 +82,12 @@ export default function About() {
               </div>
             </div>
           </div>
-          <section className="text-gray-600 body-font overflow-hidden">
-            <div className="container px-5 py-24 mx-auto">
+          <section
+            data-aos="fade-down"
+            data-aos-delay="800"
+            className="text-gray-600 body-font overflow-hidden"
+          >
+            <div className="container px-5 py-10 mx-auto">
               <div className="lg:w-4/5 mx-auto flex flex-wrap">
                 <Image
                   src={book}
@@ -117,7 +138,7 @@ export default function About() {
           </section>
           <Link
             href="/writings"
-            className="mt-10 text-neutral font-semibold underline inline-flex items-center justify-center"
+            className="mt-7 text-neutral font-semibold underline inline-flex items-center justify-center"
           >
             Writings
             <svg
