@@ -72,7 +72,7 @@ export default function About() {
                     height={80}
                     className="w-full sm:w-1/3 h-auto mb-4 sm:mb-0 sm:mr-4 rounded-lg"
                   />
-                  <p className="text-base text-pretty leading-tight italic">
+                  <p className="text-base text-pretty leading-tight">
                     Recently, he founded the Abaadi School in Garowe, Somalia,
                     which offers instruction in English, Math and Science to
                     boys and girls ages 13-24. The school is expanding rapidly
@@ -83,7 +83,7 @@ export default function About() {
             </div>
           </div>
           <section
-            data-aos="fade-down"
+            data-aos="fade-right"
             data-aos-delay="800"
             className="text-gray-600 body-font overflow-hidden"
           >
