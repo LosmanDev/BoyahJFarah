@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ae from './../../public/images/aae.png';
+import ae from './../../public/images/ae.webp';
 export default function Footer() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function Footer() {
             href="https://www.allamericanspeakers.com/celebritytalentbios/Boyah+J.+Farah/457067"
             target="_blank"
           >
-            <Image src={ae} className="h-[2.5em] w-[2.5em]"></Image>
+            <Image src={ae} className="rounded h-[2.5em] w-[2.5em]"></Image>
           </a>
           <a href="https://www.linkedin.com/in/boyah-j-farah/" target="_blank">
             <svg
