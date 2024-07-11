@@ -12,7 +12,7 @@ export default function About() {
           <div className="lg:w-4/6 mx-auto">
             <div className="flex justify-center items-center h-64">
               <div
-                data-aos="fade-down"
+                data-aos="fade-right"
                 data-aos-delay="0"
                 className="rounded-lg overflow-hidden object-cover"
               >
@@ -21,7 +21,7 @@ export default function About() {
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div
-                data-aos="fade-down"
+                data-aos="fade-right"
                 data-aos-delay="0"
                 className="sm:w-1/3 text-center sm:pr-8 sm:py-8"
               >
@@ -72,7 +72,7 @@ export default function About() {
                     height={80}
                     className="w-full sm:w-1/3 h-auto mb-4 sm:mb-0 sm:mr-4 rounded-lg"
                   />
-                  <p className="text-base text-pretty leading-tight">
+                  <p className="text-base text-pretty leading-tight italic">
                     Recently, he founded the Abaadi School in Garowe, Somalia,
                     which offers instruction in English, Math and Science to
                     boys and girls ages 13-24. The school is expanding rapidly
@@ -82,11 +82,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <section
-            data-aos="fade-right"
-            data-aos-delay="800"
-            className="text-gray-600 body-font overflow-hidden"
-          >
+          <section className="text-gray-600 body-font overflow-hidden">
             <div className="container px-5 py-10 mx-auto">
               <div className="lg:w-4/5 mx-auto flex flex-wrap">
                 <Image
@@ -95,21 +91,39 @@ export default function About() {
                   width={400}
                   height={400}
                   className="lg:w-1/2 w-full lg:h-auto h-64 md:object-cover object-contain object-center rounded"
+                  data-aos="fade-right"
+                  data-aos-delay="0"
                 />
                 <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                  <h2 className="text-sm title-font text-gray-500 tracking-widest mb-3">
+                  <h2
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                    className="text-sm title-font text-gray-500 tracking-widest mb-3"
+                  >
                     NAACP Image Award Nominee · NPR Best Book of 2022
                   </h2>
-                  <h1 className="text-gray-900 text-3xl title-font font-medium mb-3">
+                  <h1
+                    data-aos="fade-right"
+                    data-aos-delay="400"
+                    className="text-gray-900 text-3xl title-font font-medium mb-3"
+                  >
                     America Made Me a Black Man
                   </h1>
-                  <span className="italic font-semibold">
+                  <p
+                    data-aos="fade-right"
+                    data-aos-delay="800"
+                    className="italic font-semibold"
+                  >
                     A searing memoir of American racism from a Somalian-American
                     who survived hardships in his birth country only to
                     experience firsthand the dehumanization of Blacks in his
                     adopted land, the United States.
-                  </span>
-                  <p className="leading-relaxed mt-3">
+                  </p>
+                  <p
+                    data-aos="fade-right"
+                    data-aos-delay="1000"
+                    className="leading-relaxed mt-3"
+                  >
                     “No one told me about America.” Born in Somalia and raised
                     in a valley among nomads, Boyah Farah grew up with a code of
                     male bravado that helped him survive deprivation, disease,
