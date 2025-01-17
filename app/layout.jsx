@@ -2,6 +2,7 @@ import { Roboto_Slab } from 'next/font/google';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const roboto = Roboto_Slab({
   subsets: ['latin'],
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
